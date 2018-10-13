@@ -1,0 +1,21 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    long long int t;
+    cin>>t;
+    while(t--)
+    {
+        long long int p1,p2,n;
+        cin>>p1>>p2>>n;
+        long long int add = p1+p2;
+        long long int div = add/n;
+        if(div%2 == 0)
+            cout<<"CHEF"<<endl;
+        else
+            cout<<"COOK"<<endl;
+    }
+    return 0;
+}
