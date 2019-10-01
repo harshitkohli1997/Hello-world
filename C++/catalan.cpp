@@ -16,5 +16,5 @@ cin>>n;
         for (int j=0; j<i; j++) 
             a[i] += a[j] * a[i-j-1]; 
     }
-  cout<<a[n];
+  cout<<a[n]<<endl;
 }
